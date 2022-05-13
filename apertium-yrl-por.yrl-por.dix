@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+   <!-- Define the alphabet below.
+  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  -->
+  <sdefs>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="n"               c="Noun"/>
+    <sdef n="np"              c="Proper noun"/>
+    <sdef n="v"               c="Verb"/>
+    <sdef n="vblex"           c="Verb, lexical"/>
+    <sdef n="vbmod"           c="Modal verb"/>
+    <sdef n="vaux"            c="Auxiliary verb"/>
+    <sdef n="vbser"           c="'To be' verb"/>
+    <sdef n="vbhaver"         c="'To have' verb"/>
+    <sdef n="cnjsub"          c="Subordinating conjunction"/>
+    <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
+    <sdef n="cnjadv"          c="Adverbial conjunction"/>
+    <sdef n="pr"              c="Preposition"/>
+    <sdef n="post"            c="Postposition"/>
+    <sdef n="adv"             c="Adverb"/>
+    <sdef n="ij"              c="Interjection"/>
+    <sdef n="adj"             c="Adjective"/>
+    <sdef n="prn"             c="Pronoun"/>
+
+    <sdef n="attr"            c="Attributive"/>
+    <sdef n="top"             c="Toponym"/>
+    <sdef n="ant"             c="Anthroponym"/>
+    <sdef n="cog"             c="Cognomen"/>
+    <sdef n="org"             c="Organisation"/>
+    <sdef n="al"              c="Altres / misc proper nouns"/>
+
+    <sdef n="pers"            c="Personal pronoun"/>
+    <sdef n="ref"             c="Reflexive pronoun"/>
+    <sdef n="res"             c="Reciprocal pronoun"/>
+    <sdef n="tn"              c="Tonic"/>
+
+    <sdef n="det"             c="Determiner"/>
+    <sdef n="pos"             c="Possessive"/>
+
+    <sdef n="p1"              c="1st person"/>
+    <sdef n="p2"              c="2nd person"/>
+    <sdef n="p3"              c="3rd person"/>
+
+    <sdef n="nt"              c="Neuter"/>
+    <sdef n="ut"              c="Utrum"/>
+    <sdef n="f"               c="Feminine"/>
+    <sdef n="m"               c="Masculine"/>
+    <sdef n="un"              c="No gender"/>
+    <sdef n="mf"              c="M/F"/>
+    <sdef n="GD"              c="To be determined"/>
+
+    <sdef n="sg"              c="Singular"/>
+    <sdef n="du"              c="Dual"/>
+    <sdef n="pl"              c="Plural"/>
+    <sdef n="sp"              c="Singular / plural"/>
+
+    <sdef n="ind"             c="Indefinite"/>
+    <sdef n="def"             c="Definite"/>
+
+    <sdef n="nom"             c="Nominative"/>
+    <sdef n="acc"             c="Accusative"/>
+    <sdef n="gen"             c="Genitive"/>
+
+    <sdef n="dem"             c="Demonstrative"/>
+    <sdef n="itg"             c="Question word / interrogative"/>
+    <sdef n="qnt"             c="Quantifier"/>
+    <sdef n="neg"             c="Negative"/>
+    <sdef n="emph"            c="Emphatic"/>
+
+    <sdef n="inf"             c="Infinitive"/>
+    <sdef n="pres"            c="Present"/>
+    <sdef n="imp"             c="Imperative"/>
+    <sdef n="pret"            c="Preterite"/>
+    <sdef n="pp"              c="Perfect participle"/>
+    <sdef n="pprs"            c="Present participle"/>
+    <sdef n="pasv"            c="Passive"/>
+    <sdef n="actv"            c="Active voice"/>
+    <sdef n="pri"             c="Present indicative"/>
+
+    <sdef n="sint"            c="Synthetic (of adjectives)"/>
+    <sdef n="pst"             c="Positive"/>
+    <sdef n="comp"            c="Comparative"/>
+    <sdef n="sup"             c="Superlative"/>
+
+    <sdef n="ord"             c="Ordinal"/>
+    <sdef n="acr"             c="Acronym"/>
+    <sdef n="unc"             c="Uncountable"/>
+
+    <sdef n="num"             c="Numeral"/>
+    <sdef n="sent"            c="Sentence end"/>
+    <sdef n="cm"              c="Comma"/>
+    <sdef n="apos"            c="Apostrophe"/>
+    <sdef n="guio"            c="Dash"/>
+    <sdef n="lpar"            c="Left parenthesis"/>
+    <sdef n="rpar"            c="Right parenthesis"/>
+    <sdef n="lquot"           c="Left quote"/>
+    <sdef n="rquot"           c="Right quote"/>
+
+    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
+    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
+  </sdefs>
+
+   <section id="main" type="standard">
+          <!-- Numerals -->
+          <e><p><l>iepé<s n="n"/></l><r>um<s n="n"/></r></p></e>
+          <e><p><l>mukũi<s n="n"/></l><r>dois<s n="n"/></r></p></e>
+          <e><p><l>musapíri<s n="n"/></l><r>três<s n="n"/></r></p></e>
+          <e><p><l>irũndí<s n="n"/></l><r>quatro<s n="n"/></r></p></e>
+          <e><p><l>pu<s n="n"/></l><r>cinco<s n="n"/></r></p></e>
+          <e><p><l>pu iepé<s n="n"/></l><r>seis<s n="n"/></r></p></e>
+          <e><p><l>pu mukũi<s n="n"/></l><r>sete<s n="n"/></r></p></e>
+          <e><p><l>pu musapíri<s n="n"/></l><r>oito<s n="n"/></r></p></e>
+          <e><p><l>pu irũndi<s n="n"/></l><r>nove<s n="n"/></r></p></e>
+          <!-- Nouns -->
+          <e><p><l>uka<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tutira<s n="n"/></l><r>tio<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>maku<s n="n"/></l><r>índio<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>paranã<s n="n"/></l><r>rio<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>igara<s n="n"/></l><r>canoa<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>d<s n="n"/></l><r>peixe<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iakaré<s n="n"/></l><r>jacaré<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>apigaua<s n="n"/></l><r>homem<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>pĩdá<s n="n"/></l><r>caniço<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>ruiwa<s n="n"/></l><r>flecha<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>surubĩ<s n="n"/></l><r>surubim<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tukunaré<s n="n"/></l><r>tucunaré<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>watukupá<s n="n"/></l><r>remo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kĩyapira <s n="n"/></l><r>quinhapira<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tipiaka<s n="n"/></l><r>tapioca<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>masoka<s n="n"/></l><r>maçoca<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kuradá<s n="n"/></l><r>curadá<s n="n"/></r></p></e>
+          <e><p><l>tukupí<s n="n"/></l><r>tucupí<s n="n"/></r></p></e>
+          <e><p><l>ara<s n="n"/></l><r>dia<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>ara<s n="n"/></l><r>mundo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>ara<s n="n"/></l><r>tempo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>arara<s n="n"/></l><r>arara<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>ararapeua<s n="n"/></l><r>violão<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>arasá<s n="n"/></l><r>araçá<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>aría<s n="n"/></l><r>avó<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>arauara<s n="n"/></l><r>vivente<s n="n"/><s n="mf"/></r></p></e>
+          <e><p><l>aua<s n="n"/></l><r>cabelo<s n="n"/><s n="mf"/></r></p></e>
+          <e><p><l>auati<s n="n"/></l><r>milho<s n="n"/><s n="mf"/></r></p></e>
+          <e><p><l>pituna<s n="n"/></l><r>noite<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>mimbira<s n="n"/></l><r>filho<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>mimbira<s n="n"/></l><r>filha<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>anama<s n="n"/></l><r>familiar<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pindá<s n="n"/></l><r>anzol<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pinaitikasara<s n="n"/></l><r>pescador<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>taua<s n="n"/></l><r>cidade<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>rapé<s n="n"/></l><r>rua<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>rembiua<s n="n"/></l><r>margem<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>mira<s n="n"/></l><r>pessoa<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>nheenga<s n="n"/></l><r>palavra<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>nheenga<s n="n"/></l><r>língua<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>uí<s n="n"/></l><r>farinha<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tendaua<s n="n"/></l><r>comunidade<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>garapá<s n="n"/></l><r>porto<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>nheengatu<s n="n"/></l><r>nheengatú<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>sukuera<s n="n"/></l><r>carne<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kunhã<s n="n"/></l><r>mulher<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>manha<s n="n"/></l><r>mãe<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pu<s n="n"/></l><r>mão<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kuia<s n="n"/></l><r>cuia<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>baniua<s n="n"/></l><r>baniua<s n="n"/><s n="mf"/></r></p></e>
+          <e><p><l>buia<s n="n"/></l><r>cobra<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>darapi<s n="n"/></l><r>prato<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>gantĩ<s n="n"/></l><r>proa<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>garapá<s n="n"/></l><r>porto<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iakumã<s n="n"/></l><r>popa<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iandu<s n="n"/></l><r>aranha<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iapuna<s n="n"/></l><r>forno<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iapurá<s n="n"/></l><r>iapurá<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iara<s n="n"/></l><r>dono<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iara<s n="n"/></l><r>dona<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iasi<s n="n"/></l><r>lua<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iauara<s n="n"/></l><r>cão<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iauara-kunhã<s n="n"/></l><r>cadela<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iauareté<s n="n"/></l><r>onça<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iauari<s n="n"/></l><r>javari<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iauti<s n="n"/></l><r>jabuti<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iaxiusaua<s n="n"/></l><r>choro<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iepeaua<s n="n"/></l><r>lenha<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>igarapé<s n="n"/></l><r>igarapé<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>igarité<s n="n"/></l><r>barco<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>ira<s n="n"/></l><r>mel<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iriru<s n="n"/></l><r>copo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>itá<s n="n"/></l><r>pedra<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>itaité<s n="n"/></l><r>aço<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iua<s n="n"/></l><r>planta<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iuaka<s n="n"/></l><r>céu<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iuí<s n="n"/></l><r>terra<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iuí<s n="n"/></l><r>chão<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iuisé<s n="n"/></l><r>ralador<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iuitu<s n="n"/></l><r>vento<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iukira<s n="n"/></l><r>sal<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iukuakusaua<s n="n"/></l><r>sexta-feira<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iumasisaua<s n="n"/></l><r>fome<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iupati<s n="n"/></l><r>jupati<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>iupirisaua<s n="n"/></l><r>escada<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iurá<s n="n"/></l><r>jirau<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iuru<s n="n"/></l><r>boca<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>Iurupari<s n="n"/></l><r>Jurupari<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iutima<s n="n"/></l><r>plantação<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>iuuá<s n="n"/></l><r>braço<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kaá<s n="n"/></l><r>mato<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kaá<s n="n"/></l><r>folha<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kaá<s n="n"/></l><r>planta<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kakuri<s n="n"/></l><r>cacuri<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kambi<s n="n"/></l><r>leite<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kamixá<s n="n"/></l><r>camisa<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kamundusara<s n="n"/></l><r>caçador<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kamundusara<s n="n"/></l><r>caçadora<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kamuti<s n="n"/></l><r>pote<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kandiru<s n="n"/></l><r>candiru<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kariua<s n="n"/></l><r>homem branco<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kariua nheenga<s n="n"/></l><r>português<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>karuka<s n="n"/></l><r>tarde<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>katusaua<s n="n"/></l><r>bondade<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kauera<s n="n"/></l><r>bêbado<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kauera<s n="n"/></l><r>bêbada<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kauĩ<s n="n"/></l><r>aguardente<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kauoka<s n="n"/></l><r>caboclo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kauoka<s n="n"/></l><r>cabocla<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kaxiuera<s n="n"/></l><r>cachoeira<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kiínha<s n="n"/></l><r>pimenta<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kirimbasaua<s n="n"/></l><r>valentia<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kisé<s n="n"/></l><r>faca<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kiuíra<s n="n"/></l><r>irmão<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kuara<s n="n"/></l><r>buraco<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kuema<s n="n"/></l><r>manhã<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kumandamiri<s n="n"/></l><r>feijão<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kumaíua<s n="n"/></l><r>cumaí<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kunhãmuku<s n="n"/></l><r>moça<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kunhãuara<s n="n"/></l><r>mulherengo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kupé<s n="n"/></l><r>costas<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kupiĩ<s n="n"/></l><r>cupim<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kupixaua<s n="n"/></l><r>roça<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>kurasi<s n="n"/></l><r>sol<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kurumi<s n="n"/></l><r>menino<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>kuximauara<s n="n"/></l><r>antepassado<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>maã<s n="n"/></l><r>coisa<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>maã aíua<s n="n"/></l><r>diabo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>maãsiiara<s n="n"/></l><r>rico<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>maãsiiara<s n="n"/></l><r>rica<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>makaxera<s n="n"/></l><r>macaxera<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>makira<s n="n"/></l><r>rede<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>maku<s n="n"/></l><r>macu<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>mamaiaku<s n="n"/></l><r>baiacu<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>manauara<s n="n"/></l><r>manauara<s n="n"/><s n="mf"/></r></p></e>
+          <e><p><l>maniaka<s n="n"/></l><r>mandioca<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>manikuera<s n="n"/></l><r>manipueira<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>maniua<s n="n"/></l><r>maniva<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>maniuatiua<s n="n"/></l><r>mandiocal<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>marandua<s n="n"/></l><r>lenda<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>marika<s n="n"/></l><r>barriga<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>mbuesara<s n="n"/></l><r>professor<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>mbuesaua<s n="n"/></l><r>lição<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>meẽsara<s n="n"/></l><r>vendedor<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>meiú<s n="n"/></l><r>biju<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>memũingara<s n="n"/></l><r>cozinheiro<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>memũitaua<s n="n"/></l><r>fogão<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>memũitendaua<s n="n"/></l><r>cozinha<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>mena<s n="n"/></l><r>marido<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>miapé<s n="n"/></l><r>pão<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>mirá<s n="n"/></l><r>madeira<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>mirá<s n="n"/></l><r>árvore<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>mitima<s n="n"/></l><r>plantação<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>mituú<s n="n"/></l><r>domingo<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>mũ<s n="n"/></l><r>irmão<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>muraki<s n="n"/></l><r>trabalho<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>murakimukũi<s n="n"/></l><r>terça-feira<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>murakimusapíri<s n="n"/></l><r>quarta-feira<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>murakipi<s n="n"/></l><r>segunda-feira<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>murasi<s n="n"/></l><r>festa<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>murasi<s n="n"/></l><r>baile<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>nambi<s n="n"/></l><r>orelha<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>naná<s n="n"/></l><r>abacaxi<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>nheengarisara<s n="n"/></l><r>cantor<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>nheengarisaua<s n="n"/></l><r>canto<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>paia<s n="n"/></l><r>pai<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>paié<s n="n"/></l><r>pajé<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>pakuatiua<s n="n"/></l><r>bananal<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>papera<s n="n"/></l><r>papel<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>papera<s n="n"/></l><r>carta<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>paranãuasu<s n="n"/></l><r>mar<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>pepu<s n="n"/></l><r>asa<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pereua<s n="n"/></l><r>ferida<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pi<s n="n"/></l><r>pé<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>piá<s n="n"/></l><r>coração<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>pikasu<s n="n"/></l><r>pomba<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pindaíua<s n="n"/></l><r>vara<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pindaua<s n="n"/></l><r>pindoba<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>pinimasara<s n="n"/></l><r>pintor<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>pinimasaua<s n="n"/></l><r>desenho<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>pira<s n="n"/></l><r>corpo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>piraíua<s n="n"/></l><r>piraíba<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>piraruku<s n="n"/></l><r>piraruku<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>pirasua<s n="n"/></l><r>pobre<s n="n"/><s n="mf"/></r></p></e>
+          <e><p><l>pirera<s n="n"/></l><r>pele<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pirera<s n="n"/></l><r>casca<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pirera<s n="n"/></l><r>couro<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>pirera<s n="n"/></l><r>casco<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>piripanasaua ruka<s n="n"/></l><r>loja<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pisaié<s n="n"/></l><r>meia-noite<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pisauera<s n="n"/></l><r>pedaço<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>pitera<s n="n"/></l><r>metade<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pixana<s n="n"/></l><r>gato<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>puãpé<s n="n"/></l><r>unha<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>purasisaua<s n="n"/></l><r>dança<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>pururé<s n="n"/></l><r>enxada<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>puruã<s n="n"/></l><r>grávida<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>putiá<s n="n"/></l><r>peito<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>putira<s n="n"/></l><r>flor<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>puú<s n="n"/></l><r>colher<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>saisusaua<s n="n"/></l><r>amor<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sakanga<s n="n"/></l><r>galho<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sakusaua<s n="n"/></l><r>calor<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sangaua<s n="n"/></l><r>exemplo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sangaua<s n="n"/></l><r>medida<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>sangaua<s n="n"/></l><r>modelo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sangaua<s n="n"/></l><r>retrato<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sangaua<s n="n"/></l><r>fotografia<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>sanha<s n="n"/></l><r>dente<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>sapu<s n="n"/></l><r>raiz<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>sapukaia<s n="n"/></l><r>galinha<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>sasisaua<s n="n"/></l><r>sofrimento<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sasisaua<s n="n"/></l><r>violência<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>sauru<s n="n"/></l><r>sábado<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>seẽ<s n="n"/></l><r>açúcar<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sekuiara<s n="n"/></l><r>pagamento<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sekuiara<s n="n"/></l><r>dinheiro<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sekuiaramirĩ<s n="n"/></l><r>troco<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sepi<s n="n"/></l><r>preço<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sera<s n="n"/></l><r>nome<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sesá<s n="n"/></l><r>olho<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sesaiukisé<s n="n"/></l><r>lágrima<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>setimã<s n="n"/></l><r>perna<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>sikiesaua<s n="n"/></l><r>medo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sikusaua<s n="n"/></l><r>vida<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>simiriku<s n="n"/></l><r>esposa<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>simiriku-putaua<s n="n"/></l><r>noiva<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>suá<s n="n"/></l><r>cara<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>suá<s n="n"/></l><r>rosto<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>suaia<s n="n"/></l><r>rabo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>suaia<s n="n"/></l><r>cauda<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>suasu<s n="n"/></l><r>veado<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>suaxara<s n="n"/></l><r>lado<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>suaxara<s n="n"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>sumuara<s n="n"/></l><r>companheiro<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sumuara<s n="n"/></l><r>amigo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>sumuara-kunhã<s n="n"/></l><r>companheira<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>sumuara-kunhã<s n="n"/></l><r>amiga<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>supapau<s n="n"/></l><r>quinta-feira<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>supiá<s n="n"/></l><r>ovo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>supitá<s n="n"/></l><r>tronco<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>supitá<s n="n"/></l><r>parede<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>supiuara<s n="n"/></l><r>verdade<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>surisaua<s n="n"/></l><r>alegria<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>suú<s n="n"/></l><r>animal<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>taiera<s n="n"/></l><r>filha<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>taína<s n="n"/></l><r>bebê<s n="n"/><s n="mf"/></r></p></e>
+          <e><p><l>tainasaua<s n="n"/></l><r>infância<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tainha<s n="n"/></l><r>caroço<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tainha<s n="n"/></l><r>semente<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>taíra<s n="n"/></l><r>filho<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>taiti<s n="n"/></l><r>ninho<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>takua<s n="n"/></l><r>febre<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tamanduá<s n="n"/></l><r>tamanduá<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tamuatá<s n="n"/></l><r>tamuatá<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tamunha<s n="n"/></l><r>avô<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tapereiuá<s n="n"/></l><r>taperebá<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tapekua<s n="n"/></l><r>abano<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tapiíra<s n="n"/></l><r>anta<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tapiíra<s n="n"/></l><r>vaca<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tapixaua<s n="n"/></l><r>vassoura<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tariíra<s n="n"/></l><r>tariíra<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tatá<s n="n"/></l><r>fogo<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tatu<s n="n"/></l><r>tatu<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tendira<s n="n"/></l><r>irmã<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tembiua<s n="n"/></l><r>margem<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tetama<s n="n"/></l><r>região<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tetama<s n="n"/></l><r>pátria<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>timbiú<s n="n"/></l><r>comida<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tuiué<s n="n"/></l><r>velho<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tiputi<s n="n"/></l><r>fezes<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tuí<s n="n"/></l><r>sangue<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tuixaua<s n="n"/></l><r>chefe<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tukana<s n="n"/></l><r>tucano<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tukano<s n="n"/></l><r>tukano<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>Tupana<s n="n"/></l><r>Deus<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>tupasá<s n="n"/></l><r>corda<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>tupáuku<s n="n"/></l><r>igreja<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>uatasara<s n="n"/></l><r>andador<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>uirá<s n="n"/></l><r>pássaro<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>uirá<s n="n"/></l><r>ave<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>uirauasu<s n="n"/></l><r>gavião<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>uitu<s n="n"/></l><r>vento<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>ukapi<s n="n"/></l><r>quarto<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>uka-pupekasara<s n="n"/></l><r>telhado<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>ukara<s n="n"/></l><r>terreiro<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>ukara<s n="n"/></l><r>quintal<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>ukena<s n="n"/></l><r>porta<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>urubu<s n="n"/></l><r>urubu<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>urupema<s n="n"/></l><r>peneira<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>xibé<s n="n"/></l><r>chibé<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>xibuí<s n="n"/></l><r>verme<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>xipu<s n="n"/></l><r>cipó<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>xirura<s n="n"/></l><r>calça<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>ií<s n="n"/></l><r>água<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>Maria<s n="n"/></l><r>Maria<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>taua<s n="n"/></l><r>cidade<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>akaiú<s n="n"/></l><r>caju<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>akaiú<s n="n"/></l><r>ano<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>akanga<s n="n"/></l><r>cabeça<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>akangaiuasaua<s n="n"/></l><r>loucura<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>akari<s n="n"/></l><r>acari<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>amana<s n="n"/></l><r>chuva<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>amanauasu<s n="n"/></l><r>tempestade<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>amaniú<s n="n"/></l><r>algodão<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>amũ<s n="n"/></l><r>irmã<s n="n"/><s n="f"/></r></p></e>
+          <e><p><l>São Gabriel<s n="n"/></l><r>São Gabriel<s n="n"/><s n="m"/></r></p></e>
+          <e><p><l>Londres<s n="n"/></l><r>Londres<s n="np"/><s n="f"/><s n="top"/></r></p></e>
+          <e><p><l>Jesus<s n="n"/></l><r>Jesus<s n="np"/><s n="m"/><s n="top"/></r></p></e>
+          <e><p><l>Deus<s n="n"/></l><r>Deus<s n="np"/><s n="m"/><s n="top"/></r></p></e>
+          <!-- Adjectives -->
+          <e><p><l>puranga<s n="adj"/></l><r>bonito<s n="adj"/><s n="GD"/></r></p></e>
+          <e><p><l>iumasi<s n="adj"/></l><r>faminto<s n="adj"/><s n="GD"/></r></p></e>
+          <e><p><l>marupiara<s n="adj"/></l><r>sortudo<s n="adj"/><s n="GD"/></r></p></e>
+          <e><p><l>turusu<s n="adj"/></l><r>grande<s n="adj"/><s n="mf"/></r></p></e>
+          <e><p><l>aíua<s n="adj"/></l><r>ruim<s n="adj"/><s n="mf"/></r></p></e>
+          <e><p><l>apara<s n="adj"/></l><r>torto<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>apara<s n="adj"/></l><r>torta<s n="adj"/><s n="f"/></r></p></e>
+          <e><p><l>apuã<s n="adj"/></l><r>redondo<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>apuã<s n="adj"/></l><r>redonda<s n="adj"/><s n="f"/></r></p></e>
+          <e><p><l>auaité<s n="adj"/></l><r>perigoso<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>auaité<s n="adj"/></l><r>perigosa<s n="adj"/><s n="f"/></r></p></e>
+          <e><p><l>auaeté<s n="adj"/></l><r>valente<s n="adj"/><s n="mf"/></r></p></e>
+          <e><p><l>iepeasu<s n="adj"/></l><r>junto<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>iepeasu<s n="adj"/></l><r>junta<s n="adj"/><s n="f"/></r></p></e>
+          <e><p><l>iusi<s n="adj"/></l><r>sedento<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>katu<s n="adj"/></l><r>bom<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>kiá<s n="adj"/></l><r>sujo<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>kirá<s n="adj"/></l><r>gordo<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>kuaíra<s n="adj"/></l><r>pequeno<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>kuera<s n="adj"/></l><r>morto<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>maraári<s n="adj"/></l><r>cansado<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>pitua<s n="adj"/></l><r>fraco<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>pixuna<s n="adj"/></l><r>preto<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>puku<s n="adj"/></l><r>comprido<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>puku<s n="adj"/></l><r>longo<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>pura<s n="adj"/></l><r>cheio<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>pusé<s n="adj"/></l><r>pesado<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>puxi<s n="adj"/></l><r>mau<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>puxiuera<s n="adj"/></l><r>feio<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>raku<s n="adj"/></l><r>quente<s n="adj"/><s n="mf"/></r></p></e>
+          <e><p><l>ruri<s n="adj"/></l><r>alegre<s n="adj"/><s n="mf"/></r></p></e>
+          <e><p><l>ruri<s n="adj"/></l><r>feliz<s n="adj"/><s n="mf"/></r></p></e>
+          <e><p><l>saimbé<s n="adj"/></l><r>afiado<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>santá<s n="adj"/></l><r>duro<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>sasiara<s n="adj"/></l><r>triste<s n="adj"/><s n="mf"/></r></p></e>
+          <e><p><l>seẽ<s n="adj"/></l><r>doce<s n="adj"/><s n="mf"/></r></p></e>
+          <e><p><l>sepiasu<s n="adj"/></l><r>caro<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>sepiasuíma<s n="adj"/></l><r>barato<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>teresému<s n="adj"/></l><r>cheio<s n="adj"/><s n="m"/></r></p></e>
+          <e><p><l>uaimĩ<s n="adj"/></l><r>velha<s n="adj"/><s n="m"/></r></p></e>
+          <!-- Adverbs -->
+          <e><p><l>ma<s n="adv"/></l><r>mas<s n="adv"/><s n="f"/></r></p></e>
+          <!-- Pronouns -->
+          <e><p><l>ixé<s n="prn"/><s n="pers"/><s n="p1"/></l><r>eu<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></r></p></e>
+          <e><p><l>indé<s n="prn"/></l><r>você<s n="prn"/></r></p></e>
+          <e><p><l>aé<s n="prn"/></l><r>ele<s n="prn"/></r></p></e>
+          <e><p><l>aé<s n="prn"/></l><r>ela<s n="prn"/></r></p></e>
+          <e><p><l>iandé<s n="prn"/></l><r>nós<s n="pers"/></r></p></e>
+          <e><p><l>penhẽ<s n="prn"/></l><r>vocês<s n="prn"/></r></p></e>
+          <e><p><l>aintá<s n="prn"/></l><r>eles<s n="prn"/></r></p></e>
+          <e><p><l>aintá<s n="prn"/></l><r>elas<s n="prn"/></r></p></e>
+          <e><p><l>auá<s n="itg"/></l><r>quem<s n="itg"/></r></p></e>
+          <e><p><l>nhaã<s n="prn"/></l><r>aquele<s n="prn"/></r></p></e>
+          <e><p><l>uaá<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
+          <e><p><l>se<s n="prn"/><s n="pers"/><s n="p1"/><s n="pos"/></l><r>meu<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
+          <e><p><l>se<s n="prn"/><s n="pers"/><s n="p1"/><s n="pos"/></l><r>minha<s n="det"/><s n="pos"/><s n="f"/></r></p></e>
+          <e><p><l>i<s n="prn"/><s n="pers"/><s n="p3"/><s n="pos"/></l><r>seu<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
+          <e><p><l>i<s n="prn"/><s n="pers"/><s n="p3"/><s n="pos"/></l><r>sua<s n="det"/><s n="pos"/><s n="f"/></r></p></e>
+          <!-- Interjections -->
+          <e><p><l>kuekatu<s n="ij"/></l><r>obrigado<s n="ij"/><s n="m"/></r></p></e>
+          <e><p><l>kuekatu<s n="ij"/></l><r>obrigada<s n="ij"/><s n="f"/></r></p></e>
+          <!-- Postpositions -->
+          <e><p><l>irũmu<s n="post"/></l><r>com<s n="post"/></r></p></e>
+          <e><p><l>arama<s n="post"/></l><r>para<s n="post"/></r></p></e>
+          <e><p><l>supé<s n="post"/></l><r>para<s n="post"/></r></p></e>
+          <e><p><l>ruaki<s n="post"/></l><r>perto de<s n="post"/></r></p></e>
+          <e><p><l>upé<s n="post"/></l><r>em<s n="prn"/></r></p></e>
+          <e><p><l>pukusaua<s n="post"/></l><r>durante<s n="pr"/></r></p></e>
+          <e><p><l>rupi<s n="post"/></l><r>por<s n="pr"/></r></p></e>
+          <e><p><l>kiti<s n="post"/></l><r>para<s n="pr"/></r></p></e>
+          <e><p><l>resé<s n="post"/></l><r>sobre<s n="pr"/></r></p></e>
+          <e><p><l>sesé<s n="post"/></l><r>sobre<s n="pr"/></r></p></e>
+          <!-- Verbs -->
+          <e><p><l>purungitá<s n="v"/></l><r>falar<s n="vblex"/></r></p></e>
+          <e><p><l>iana<s n="v"/></l><r>correr<s n="vblex"/></r></p></e>
+          <e><p><l>mbaú<s n="v"/></l><r>comer<s n="vblex"/></r></p></e>
+          <e><p><l>ú<s n="v"/></l><r>beber<s n="vblex"/></r></p></e>
+          <e><p><l>uapika<s n="v"/></l><r>sentar-se<s n="vblex"/></r></p></e>
+          <e><p><l>kuau<s n="v"/></l><r>saber<s n="vblex"/></r></p></e>
+          <e><p><l>iku<s n="v"/></l><r>estar<s n="vblex"/></r></p></e>
+          <e><p><l>uatá<s n="v"/></l><r>andar<s n="vblex"/></r></p></e>
+          <e><p><l>sému<s n="v"/></l><r>sair<s n="vblex"/></r></p></e>
+          <e><p><l>nheẽ<s n="v"/></l><r>dizer<s n="vblex"/></r></p></e>
+          <e><p><l>manduári<s n="v"/></l><r>pensar<s n="vblex"/></r></p></e>
+          <e><p><l>manduári<s n="v"/></l><r>lembrar-se<s n="vblex"/></r></p></e>
+          <e><p><l>ieuíri<s n="v"/></l><r>voltar<s n="vblex"/></r></p></e>
+          <e><p><l>aikué<s n="vblex"/></l><r>haver<s n="vblex"/><s n="pri"/><s n="p3"/><s n="p3"/></r></p></e>
+          <!-- Adverbs -->
+          <e><p><l>niti<s n="adv"/></l><r>não<s n="adv"/></r></p></e>
+          <e><p><l>umbaá<s n="adv"/></l><r>não<s n="adv"/></r></p></e>
+          <e><p><l>uií<s n="adv"/></l><r>hoje<s n="adv"/></r></p></e>
+          <e><p><l>siía<s n="adv"/></l><r>muita<s n="adv"/></r></p></e>
+          <e><p><l>ape<s n="adv"/></l><r>lá<s n="adv"/></r></p></e>
+          <e><p><l>nhaãsé<s n="adv"/></l><r>porque<s n="adv"/></r></p></e>
+          <e><p><l>asuí<s n="adv"/></l><r>e<s n="adv"/></r></p></e>
+
+      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+   </section>
+</dictionary>
+
+<!--
+Resources:
+    https://wiki.apertium.org/wiki/Bilingual_dictionary
+    https://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
+    https://wiki.apertium.org/wiki/List_of_symbols
+-->
