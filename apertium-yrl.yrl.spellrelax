@@ -1,0 +1,41 @@
+[
+	! Unify apostrophe styles
+	[ ?* [ ' (->) [ %` | ʻ | ’ | ‘ | ʼ ] ] ?* ] .o.
+
+	! Accept a as á
+	[ ?* [ á (->) a ] ?* ] .o.
+
+	! Accept u as ũ
+	[ ?* [ ũ (->) u ] ?* ] .o.
+
+	! Accept i as í
+	[ ?* [ í (->) i ] ?* ] .o.
+
+	! Accept e as é
+	[ ?* [ é (->) e ] ?* ] .o.
+
+	! Accept u as ú
+	[ ?* [ ú (->) u ] ?* ] .o.
+
+	! Accept y as i
+	[ ?* [ i (->) y ] ?* ] .o.
+
+	! Accept y as h
+	[ ?* [ h (->) y ] ?* ] .o.
+
+	! Accept a as ã
+	[ ?* [ ã (->) a ] ?* ] .o.
+
+	! Accept w as u
+	[ ?* [ u (->) w ] ?* ] .o.
+
+	! Accept s as r
+	[ ?* [ s (->) r ] ?* ] .o.
+
+	! Accept e as ẽ
+	[ ?* [ ẽ (->) e ] ?* ] .o.
+
+	! Accept u as o
+	[ ?* [ o (->) u ] ?* ]
+
+]

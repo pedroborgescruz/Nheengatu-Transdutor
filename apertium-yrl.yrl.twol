@@ -1,0 +1,42 @@
+Alphabet
+ A B C Ç D E É Á Ã F G H I Ĩ Í J K L M N O Ó Õ P R S T U Ũ W Y Z
+ a b c ç d e é á ã f g h i ĩ í j k l m n o ó õ p r s t u ũ w y z
+ %{A%}:a %>:0
+ %{I%}:i %{I%}:ĩ
+ %{U%}:u %{U%}:0
+ %{A%}:a %{A%}:0
+ %{AUG%}:0
+ %{DER%}:0
+   
+;
+
+Sets
+
+AccentedVowel = Á Ã É Ẽ Í Ĩ Ũ Ó Õ
+                á ã é ẽ í ĩ ũ ó õ ;
+
+UnaccentedVowel = %{A%} A E I U O
+                        a e i u o ;
+
+Rules
+
+"Add diacritic to diminutive inflection when unstressed 'a' is at coda position"
+%{I%}:ĩ <=> a: %>: _ ;
+
+"Remove 'a' when there is a cluster of the type 'aĩ'"
+a:0 <=> _ %>: %{I%}: ;
+
+"Unaccented vowel  as 0 before augmentative inflection"
+UnaccentedVowel:0 <=> _ %>: %{AUG%}: ;
+
+"'u' as 0 in a cluster of the type 'uu'"
+%{U%}:0 <=> u: UnaccentedVowel: %>: %{AUG%}: _ ;
+
+"'é' as 'e' before derivation inflection"
+é:e <=> _ %>: %{DER%}: ;
+
+! https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
+! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+! https://github.com/hfst/
+! https://wiki.apertium.org/wiki/Twol
+! https://wiki.apertium.org/wiki/Hfst
