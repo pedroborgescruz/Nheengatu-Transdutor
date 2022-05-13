@@ -87,6 +87,7 @@ For more information
 * https://wiki.apertium.org/wiki/Installation
 * https://wiki.apertium.org/wiki/apertium-yrl
 * https://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+* https://wikis.swarthmore.edu/ling073/Nheengat%C3%BA
 
 Help and support
 -------------------------------------------------------------------------------
