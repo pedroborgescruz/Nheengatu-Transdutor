@@ -1,4 +1,4 @@
-Nhengatu: `apertium-yrl`
+Nheengatu: `apertium-yrl`
 ===============================================================================
 
 This is an Apertium monolingual language package for Nhengatu. What
